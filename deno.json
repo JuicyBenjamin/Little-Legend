@@ -1,0 +1,21 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "tasks": {
+    "dev": "deno run -A npm:vite dev --port 3000",
+    "build": "deno run -A npm:vite build",
+    "preview": "deno run -A npm:vite preview",
+    "test": "deno run -A npm:vitest run",
+    "lint": "deno run -A npm:eslint",
+    "format": "deno run -A npm:prettier --write .",
+    "check": "deno run -A npm:prettier --write . && deno run -A npm:eslint --fix"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "lib": ["dom", "dom.iterable", "esnext", "deno.ns"]
+  },
+  "nodeModulesDir": "auto",
+  "imports": {
+    "@/": "./src/"
+  }
+}

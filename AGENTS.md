@@ -62,6 +62,14 @@ When unsure:
 
 ---
 
+## Development Workflow
+
+- **Do NOT start the dev server automatically** — assume the user will run `deno task dev` themselves
+- If testing requires a running server, ask the user to confirm it's running or to start it
+- The dev server runs on port **3000** by default
+
+---
+
 ## Summary
 
 - Deno first
