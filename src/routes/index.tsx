@@ -10,16 +10,33 @@ function Home() {
         <h1 className="text-4xl font-bold">Little Legend</h1>
       </main>
       <footer className="py-4 text-center text-sm text-muted-foreground">
-        Poro artwork via{' '}
+        Poro artwork by{' '}
         <a
-          href="https://www.clipartmax.com/middle/m2i8d3i8b1H7m2Z5_poro-png-clipart-chibi-lol-poro/"
+          href="https://www.deviantart.com/adrusaurio/art/PORO-454269323"
           target="_blank"
           rel="noopener noreferrer"
           className="underline hover:text-foreground"
         >
-          ClipartMax
+          adrusaurio
         </a>
-        {' '}· Artist unknown
+        {' '}·{' '}
+        <a
+          href="https://www.deviantart.com/adrusaurio"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-foreground"
+        >
+          DeviantArt
+        </a>
+        {' '}·{' '}
+        <a
+          href="https://adrusaurio.tumblr.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-foreground"
+        >
+          Tumblr
+        </a>
       </footer>
     </div>
   )
